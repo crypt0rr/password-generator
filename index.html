@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Password Generator</title>
+    <link rel="icon" href="/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.5/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -18,12 +19,12 @@
             <div class="result__title field-title">Generated Password</div>
             <div class="result__info right">click to copy</div>
             <div class="result__info left">copied</div>
-            <div class="result__viewbox" id="result">CLICK GENERATE</div>
+            <div class="result__viewbox" id="result">-</div>
             <button id="copy-btn" style="--x: 0; --y: 0"><i class="far fa-copy"></i></button>
         </div>
-        <div class="length range__slider" data-min="4" data-max="32">
+        <div class="length range__slider" data-min="8" data-max="64">
             <div class="length__title field-title" data-length='0'>length:</div>
-            <input id="slider" type="range" min="4" max="32" value="16" />
+            <input id="slider" type="range" min="8" max="64" value="32" />
         </div>
 
         <div class="settings">
